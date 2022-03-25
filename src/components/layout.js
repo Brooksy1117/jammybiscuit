@@ -26,18 +26,6 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <link={{
-        rel: 'preconnect',
-        href: 'https://fonts.googleapis.com',
-      }}>
-      <link={{
-        rel: 'preconnect',
-        href: 'https://fonts.gstatic.com',
-      }}>
-      <link={{
-        href: '"https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&display=swap',
-        rel: 'stylesheet',
-      }}>
       <div
         style={{
           margin: `0 auto`,
